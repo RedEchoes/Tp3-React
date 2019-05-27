@@ -1,0 +1,137 @@
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+.container {
+  max-width: 100% !important;
+}
+.modifier {
+  color: white;
+
+  &:hover {
+    color: lighten(#375a7f, 20%);
+  }
+}
+img {
+  width: 100%;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+.spinner-grow {
+  width: 3rem;
+  height: 3rem;
+}
+.mainGestion{
+  @extend .col-8;
+  @extend .col-lg-4;
+}
+.navbar-brand {
+  @extend .text-white;
+}
+.darkCard {
+  @extend .card;
+  @extend .m-3;
+  @extend .p-2;
+  @extend .bg-dark;
+  @extend .text-white;
+  @extend .shadow-sm;
+}
+header {
+  @extend .mb-5;
+}
+.breadcrumb{
+  @extend .col-sm-12;
+  @extend .col-lg-4;
+}
+footer {
+  @extend .mt-5;
+  @extend .text-center;
+  @extend .text-white;
+}
+h3 {
+  @extend .my-4;
+}
+.btn {
+  @extend .btn-primary;
+  @extend .btn-lg;
+}
+.userCard {
+  @extend .col-12;
+  @extend .col-sm-6;
+  @extend .col-md-6;
+  @extend .col-lg-4;
+}
+.albumCard {
+  @extend .col-12;
+  @extend .col-md-4;
+  @extend .col-lg-3;
+}
+.userInfo{
+  @extend .col-12; 
+  @extend .col-md-4;
+  @extend .col-lg-3;
+}
+.userAlbums{
+  @extend .col-12;
+  @extend .col-md-8;
+  @extend .col-lg-9;
+}
+.nav-link {
+  @extend .text-white;
+}
+.charts{
+  @extend .col-md-12;
+  @extend .col-lg-6;
+}
+.userAlbums1{
+  @extend .col-12;
+  @extend .col-sm-6;
+  @extend .col-md-6;
+  @extend .col-lg-4;
+  @extend .col-xl-3; 
+}
