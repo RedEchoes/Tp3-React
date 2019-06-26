@@ -6,7 +6,7 @@ class UserPhotos extends React.Component {
             <div className="my-4">
                 <img
                     src={`http://i.pravatar.cc/500?img=${this.props.userId}`}
-                    className="card-img-top"/>
+                    className="card-img-top" alt="Utilisateur"/>
             </div>
         )
 

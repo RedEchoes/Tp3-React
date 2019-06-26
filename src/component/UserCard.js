@@ -8,7 +8,7 @@ class UserCard extends React.Component {
                 <div className="darkCard">
                     <img
                         src={`http://i.pravatar.cc/250?img=${this.props.userId}`}
-                        className="card-img mb-2"/>
+                        className="card-img mb-2" alt="Info"/>
                     <div>
                         <h5 className="card-title">{this.props.title}</h5>
                         <p className="card-text">{this.props.description}</p>

@@ -7,7 +7,7 @@ class Album extends React.Component {
                 <div className="darkCard">
                     <img
                         src={'https://loremflickr.com/200/200/albums/?random=' + this.props.id}
-                        className="card-img"/>
+                        className="card-img" alt="Album"/>
                     <div>
                         <h5 className="card-title">{this.props.title}</h5>
                     </div>
